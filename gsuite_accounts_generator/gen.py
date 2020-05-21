@@ -16,7 +16,9 @@
 #
 # 4. The first letter of the word in password is capitalized.
 #
-# 5. Generate about ~3000 users.
+# 5. First name is always Community and last name is always Participant.
+#
+# 6. Generate about ~3000 users.
 
 import csv
 import random
