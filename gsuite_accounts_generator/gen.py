@@ -45,5 +45,5 @@ for email in emails:
     m = pow(10, 7-len(p))
     p = str(random.choice(range(m, n))) + p.capitalize()
 
-    f.write('{},{},{},{},{}\n'.format('Community', 'Participant', u, p, '/'))
+    f.write('{},{},{},{},{}\n'.format('Community', 'Participant', u+'@covid19communitytest.com', p, '/'))
 f.close()
